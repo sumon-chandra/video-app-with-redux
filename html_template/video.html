@@ -9,9 +9,9 @@
     </head>
     <body>
         <!-- navigation -->
-        <nav class="bg-slate-100 shadow-md">
+        <nav class="shadow-md bg-slate-100">
             <div
-                class="max-w-7xl mx-auto px-5 lg:px-0 flex justify-between py-3"
+                class="flex justify-between px-5 py-3 mx-auto max-w-7xl lg:px-0"
             >
                 <a href="/">
                     <img
@@ -21,12 +21,12 @@
                     />
                 </a>
                 <div
-                    class="border border-slate-200 flex items-center bg-white h-10 px-5 rounded-lg text-sm ring-emerald-200"
+                    class="flex items-center h-10 px-5 text-sm bg-white border rounded-lg border-slate-200 ring-emerald-200"
                 >
                     <!-- search -->
                     <form>
                         <input
-                            class="outline-none border-none mr-2"
+                            class="mr-2 border-none outline-none"
                             type="search"
                             name="search"
                             placeholder="Search"
@@ -44,7 +44,7 @@
         <section class="pt-6 pb-20">
             <div class="mx-auto max-w-7xl px-2 pb-20 min-h-[400px]">
                 <div class="grid grid-cols-3 gap-2 lg:gap-8">
-                    <div class="col-span-full w-full space-y-8 lg:col-span-2">
+                    <div class="w-full space-y-8 col-span-full lg:col-span-2">
                         <!-- video player -->
                         <iframe
                             width="100%"
@@ -64,7 +64,7 @@
                                 Some video title
                             </h1>
                             <div
-                                class="pb-4 flex items-center space-between border-b"
+                                class="flex items-center pb-4 border-b space-between"
                             >
                                 <h2
                                     class="text-sm leading-[1.7142857] text-slate-600 w-full"
@@ -73,11 +73,11 @@
                                 </h2>
 
                                 <!-- like/unlike -->
-                                <div class="flex gap-10 w-48">
+                                <div class="flex w-48 gap-10">
                                     <div class="flex gap-1">
                                         <div class="shrink-0">
                                             <img
-                                                class="w-5 block"
+                                                class="block w-5"
                                                 src="./assets/like.svg"
                                                 alt="Like"
                                             />
@@ -91,7 +91,7 @@
                                     <div class="flex gap-1">
                                         <div class="shrink-0">
                                             <img
-                                                class="w-5 block"
+                                                class="block w-5"
                                                 src="./assets/unlike.svg"
                                                 alt="Unlike"
                                             />
@@ -118,7 +118,7 @@
                         class="col-span-full lg:col-auto max-h-[570px] overflow-y-auto"
                     >
                         <!-- single related video -->
-                        <div class="w-full flex flex-row gap-2 mb-4">
+                        <div class="flex flex-row w-full gap-2 mb-4">
                             <div
                                 class="relative w-[168px] h-[94px] flex-none duration-300 hover:scale-[1.03]"
                             >
@@ -130,7 +130,7 @@
                                     />
                                 </a>
                                 <p
-                                    class="absolute right-2 bottom-2 bg-gray-900 text-gray-100 text-xs px-1 py"
+                                    class="absolute px-1 text-xs text-gray-100 bg-gray-900 right-2 bottom-2 py"
                                 >
                                     12:10
                                 </p>
@@ -139,18 +139,18 @@
                             <div class="flex flex-col w-full">
                                 <a href="#">
                                     <p
-                                        class="text-slate-900 text-sm font-semibold"
+                                        class="text-sm font-semibold text-slate-900"
                                     >
                                         Some video title
                                     </p>
                                 </a>
                                 <a
-                                    class="text-gray-400 text-xs mt-2 hover:text-gray-600"
+                                    class="mt-2 text-xs text-gray-400 hover:text-gray-600"
                                     href="#"
                                 >
                                     Learn with Sumit
                                 </a>
-                                <p class="text-gray-400 text-xs mt-1">
+                                <p class="mt-1 text-xs text-gray-400">
                                     100K views . 23 Oct 2022
                                 </p>
                             </div>
@@ -163,7 +163,7 @@
         <!-- footer -->
         <section class="pt-6">
             <div
-                class="max-w-7xl mx-auto px-5 py-6 lg:px-0 flex justify-between gap-2 border-t text-sm text-slate-400"
+                class="flex justify-between gap-2 px-5 py-6 mx-auto text-sm border-t max-w-7xl lg:px-0 text-slate-400"
             >
                 <div>Copyright 2022 Learn with Sumit.</div>
                 <div>
